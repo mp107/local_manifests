@@ -22,4 +22,5 @@
   <project path="rpm/" name="mp107/droid-hal-dogo" revision="master" />
   <project path="hybris/droid-configs" name="mp107/droid-config-dogo" revision="master" />
   <project path="hybris/droid-hal-version-dogo" name="mp107/droid-hal-version-dogo" revision="master" />
+  <project name="mp107/hybris-boot" path="hybris/hybris-boot" revision="master"/>
 </manifest>
