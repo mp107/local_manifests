@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="CyanogenMod/android_device_sony_dogo" path="device/sony/dogo" remote="github" revision="stable/cm-11.0" />
+  <project name="mp107/android_device_sony_dogo" path="device/sony/dogo" remote="github" revision="stable/cm-11.0" />
   <project name="mp107/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="github" revision="stable/cm-11.0" />
   <project name="CyanogenMod/android_device_sony_msm8960-common" path="device/sony/msm8960-common" remote="github" revision="stable/cm-11.0" />
   <project name="mp107/android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="github" revision="hybris-11.0" />
