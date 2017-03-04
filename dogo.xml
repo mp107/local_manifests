@@ -9,18 +9,18 @@
   <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="stable/cm-11.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="stable/cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-11.0" />
-  <!--  -->
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
-  <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
-<!--  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" revision="stable/cm-11.0" />-->
-  <project path="system/vold" name="oleid/android_system_vold" revision="cm-11.0" />
-  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" />
   <!-- -->
-  <project path="rpm/" name="mp107/droid-hal-dogo" revision="master" />
-  <project path="hybris/droid-configs" name="mp107/droid-config-dogo" revision="master" />
-  <project path="hybris/droid-hal-version-dogo" name="mp107/droid-hal-version-dogo" revision="master" />
+  <project name="CyanogenMod/Superuser" path="external/koush/Superuser" revision="stable/cm-11.0" />
+  <project name="CyanogenMod/android_external_sqlite" path="external/sqlite" groups="pdk" />
+  <project name="CyanogenMod/android_external_pigz" path="external/pigz" revision="stable/cm-11.0" />
+  <project name="CyanogenMod/android_external_fsck_msdos" path="external/fsck_msdos" revision="stable/cm-11.0" />
+  <!-- vold from CyanogenMod breaks up building! --><!--  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" revision="stable/cm-11.0" />-->
+  <project name="oleid/android_system_vold" revision="cm-11.0" path="system/vold" />
+  <project name="platform/external/scrypt" path="external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project name="CyanogenMod/android_external_elfutils" path="external/elfutils" />
+  <!--  -->
+  <project name="mp107/droid-hal-dogo" path="rpm" revision="master" />
+  <project name="mp107/droid-config-dogo" path="hybris/droid-configs" revision="master" />
+  <project name="mp107/droid-hal-version-dogo" path="hybris/droid-hal-version-dogo" revision="master" />
   <project name="mp107/hybris-boot" path="hybris/hybris-boot" revision="master"/>
 </manifest>
