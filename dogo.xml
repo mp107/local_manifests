@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="CyanogenMod/android_device_sony_dogo" path="device/sony/dogo" remote="github" revision="stable/cm-11.0" />
-  <project name="CyanogenMod/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="github" revision="stable/cm-11.0" />
+  <project name="mp107/android_device_sony_fusion3-common" path="device/sony/fusion3-common" remote="github" revision="stable/cm-11.0" />
   <project name="CyanogenMod/android_device_sony_msm8960-common" path="device/sony/msm8960-common" remote="github" revision="stable/cm-11.0" />
   <project name="mp107/android_kernel_sony_apq8064" path="kernel/sony/apq8064" remote="github" revision="hybris-11.0" />
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="stable/cm-11.0" />
@@ -21,5 +21,5 @@
   <!-- -->
   <project path="rpm/" name="mp107/droid-hal-dogo" revision="master" />
   <project path="hybris/droid-configs" name="mp107/droid-config-dogo" revision="master" />
-  <project path="hybris/droid-hal-version-dogo" name="mp107/droid-hal-version-hammerhead" revision="master" />
+  <project path="hybris/droid-hal-version-dogo" name="mp107/droid-hal-version-dogo" revision="master" />
 </manifest>
